@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  border-radius: 1em;
+}
+
+main {
+  background: hsl(212, 45%, 89%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main section {
+  width: 80%;
+  max-width: 400px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1em;
+  padding: 1rem;
+}
+main .text {
+  text-align: center;
+  padding: 8px 4px;
+  width: 100%;
+}
+main h1 {
+  margin-top: 1rem;
+  font-weight: 700;
+  font-family: Outfit;
+}
+main p {
+  margin-top: 1rem;
+  font-weight: 400;
+  color: hsl(216, 15%, 48%);
+}
+main .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+main .attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*# sourceMappingURL=style.css.map */
